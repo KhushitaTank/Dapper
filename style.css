@@ -63,6 +63,7 @@ ul > li {
   color: #9f9f9f;
   border-radius: 2rem 0rem 0rem 2rem;
   outline: none;
+  background-color: #fff;
 }
 
 .search-icon {
