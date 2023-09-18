@@ -1,0 +1,265 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "DM Sans", sans-serif;
+}
+
+nav {
+  background: #6f6af7;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+}
+
+.links {
+  text-decoration: none;
+  color: #fff;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  gap: 4rem;
+  padding: 1rem 0rem;
+}
+
+.logo {
+  font-family: "Delius Unicase";
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+ul > li {
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+.vector {
+  padding-bottom: 0.3rem;
+}
+
+.search {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.search input,
+.search-icon {
+  border: none;
+}
+
+.search input {
+  min-width: 1rem;
+  max-width: 10rem;
+  font-size: 1.1rem;
+  padding: 0.3rem 0rem 0.3rem 1rem;
+  color: #9f9f9f;
+  border-radius: 2rem 0rem 0rem 2rem;
+  outline: none;
+}
+
+.search-icon {
+  padding: 0.3rem 1.2rem 0.2rem 1rem;
+  background-color: #fff;
+  border-radius: 0rem 2rem 2rem 0rem;
+}
+
+.right-aside-container {
+  float: right;
+  display: grid;
+  position: sticky;
+  top: 5rem;
+  margin-top: 6rem;
+  gap: 0.2rem;
+}
+
+.whatSApp {
+  border: 3.5px solid #000;
+  padding: 5px;
+  border-radius: 8px;
+}
+
+.firstMainContainer {
+  display: flex;
+  justify-content: center;
+  padding: 8rem 0px 5rem 0px;
+  gap: 2rem;
+}
+
+.image {
+  border-radius: 20px;
+  filter: drop-shadow(4px 7px 32px rgba(0, 0, 0, 0.44));
+  z-index: -1;
+  padding-left: 9.2rem;
+}
+
+.textfield {
+  border-radius: 20px;
+  background: #e5d8ff;
+  box-shadow: 3px 5px 27px 0px rgba(0, 0, 0, 0.25) inset;
+  color: #6f7373;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 178.7%;
+  padding: 1rem;
+}
+
+.secondMainContainer {
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 5rem;
+}
+
+.card1,
+.card2,
+.card3,
+.card4 {
+  border-radius: 11px;
+  box-shadow: 0px 9px 31px 0px rgba(0, 0, 0, 0.4);
+  width: 14rem;
+  height: 7.5rem;
+  font-weight: 700;
+  font-size: 1.4rem;
+  padding: 1rem 1rem 1rem 1.5rem;
+  line-height: 2.5rem;
+  color: #fff;
+}
+
+.card1 {
+  background: #929dff;
+}
+
+.card2 {
+  background: #734cf2;
+}
+
+.card3 {
+  background: #d288ff;
+}
+
+.card4 {
+  background: #000;
+}
+
+.thirdMainContainer {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 5rem;
+}
+
+.informationTab {
+  display: flex;
+  justify-content: start;
+  gap: 7rem;
+  border-radius: 21px;
+  background: #483eff;
+  padding: 4rem;
+  width: 80%;
+}
+
+.Buttons {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-around; */
+  flex-grow: 1;
+  gap: 3rem;
+}
+
+.active,
+.button1,
+.button2 {
+  border-radius: 10px;
+  padding: 1rem 3rem 1rem 3rem;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 178.7%;
+  letter-spacing: 1.4px;
+  border: none;
+}
+
+.active {
+  background: #bce0f6;
+  box-shadow: 0px 6px 35px 0px rgba(0, 0, 0, 0.39);
+}
+
+.button1,
+.button2 {
+  color: #fff;
+  background: #483eff;
+  border: 2px solid #fff;
+}
+
+.infomation {
+  display: flex;
+  justify-content: space-between;
+  flex-grow: 10;
+  background-color: #fff;
+  outline: 10px solid #fff;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.title {
+  color: #04285a;
+  font-family: "Inter", sans-serif;
+  font-size: 2rem;
+  font-weight: 700;
+  letter-spacing: 0.3rem;
+  margin: 1.5rem;
+}
+
+.details {
+  color: #04285a;
+  font-family: "Roboto", sans-serif;
+  font-size: 1rem;
+  /* font-style: normal; */
+  font-weight: 700;
+  line-height: 2rem;
+  letter-spacing: 0.15rem;
+  padding-left: 3rem;
+}
+
+.answerToInfomation {
+  font-weight: 500;
+}
+
+.next {
+  display: flex;
+  align-items: end;
+}
+
+.next > button {
+  display: flex;
+  align-items: center;
+  gap: 0.5em;
+  border: none;
+  border-radius: 10px;
+  color: #fff;
+  background-color: #000;
+  padding: 0.5rem;
+}
+
+.next > button > img {
+  width: 1rem;
+}
+
+.help {
+  position: fixed;
+  padding: 10px;
+  height: 15%;
+  bottom: 1.5rem;
+  right: 8rem;
+  border-radius: 100px;
+  box-shadow: 4px 7px 32px 0px #00000070;
+  background-color: white;
+  display: flex;
+}
